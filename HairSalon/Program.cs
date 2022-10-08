@@ -3,15 +3,18 @@ using Microsoft.AspNetCore.Hosting;
 
 namespace HairSalon
 {
-  public static void Main(string[] args)
+  public class Program
   {
-    var host = new WebHostBuilder()
-    .UseKestrel()
-    .useContentRoot(Directory.GetCurrentDirectory())
-    .UseISSIntegration()
-    .UseStartup<Startup>()
-    .Build();
+    public static void Main(string[] args)
+    {
+      var host = new WebHostBuilder()
+        .UseKestrel()
+        .UseContentRoot(Directory.GetCurrentDirectory())
+        .UseISSIntegration()
+        .UseStartup<Startup>()
+        .Build();
 
-   host.Run();
+      host.Run();
+    }
   }
 }

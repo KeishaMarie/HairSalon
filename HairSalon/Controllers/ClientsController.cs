@@ -25,7 +25,7 @@ namespace HairSalon.Controllers
 
     public ActionResult Create()
     {
-      viewbag.StylistId = new SelectList(_db.Stylists, "StylistId", "StylistName");
+      Viewbag.StylistId = new SelectList(_db.Stylists, "StylistId", "StylistName");
       return View();
     }
 
