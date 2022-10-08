@@ -14,8 +14,18 @@
   @Html.HiddenFor(model => model.ClientName)
 
   @Html.LabelFor(model => model.ClientName)
+  @Html.EditorFor(model => model.ClientName)
+  <br>
+  @Html.LabelFor(model => model.Phone)
+  @Html.EditorFor(model => model.Phone)
+  <br>
+  @Html.LabelFor(model => model.ApptDate)
+  @Html.EditorFor(model => model.ApptDate)
+  <br>
+  @Html.LabelFor(model => model.Service)
+  @Html.EditorFor(model => model.Service)
+  <br>
   
-// Add more properties here
-<input type="submit" value="Save" />
+  <input type="submit" value="Save" />
 }
 <p>@Html.ActionLink("Back to List", "Index")</p>
