@@ -45,7 +45,7 @@ namespace HairSalon.Controllers
 
     public ActionResult Edit(int id)
     {
-      Client thisClient = _db.Clients.FirstOrDefault(client => client.ClientId = id);
+      Client thisClient = _db.Clients.FirstOrDefault(client => client.ClientId = id); //error needs corrected
       ViewBag.StylistId = new SelectList(_db.Stylists, "StylistId", "StylistName");
       return View(thisClient);
     }
