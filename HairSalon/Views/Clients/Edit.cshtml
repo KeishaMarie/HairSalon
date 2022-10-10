@@ -1,5 +1,5 @@
 @{
-  layout = "_Layout";
+  Layout = "_Layout";
 }
 
 @model HairSalon.Models.Client
@@ -10,7 +10,7 @@
 @using (Html.BeginForm())
 {
   @Html.HiddenFor(model => model.ClientId)
-  @Html.HiddenFor(model => model.StylisId)
+  @Html.HiddenFor(model => model.StylistId)
   @Html.HiddenFor(model => model.ClientName)
 
   @Html.LabelFor(model => model.ClientName)

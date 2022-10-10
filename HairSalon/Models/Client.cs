@@ -7,6 +7,7 @@ namespace HairSalon.Models
     public int Phone { get; set; }
     public string ApptDate { get; set; }
     public string Service { get; set; }
+    public string StylistId { get; set; }
     public virtual Stylist Stylist { get; set; }
   }
 }
