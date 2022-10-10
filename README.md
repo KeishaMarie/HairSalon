@@ -29,10 +29,10 @@ This application allows a salon to add stylists with details including: name, sp
 
 * Add the following code in your appsettings.json file and update it with your UID and password.
 
-{
-  "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=hair_salon;uid=YOURUSERNAME;pwd=YOURPASSWORD;"
-  }
+{ <br>
+  "ConnectionStrings": { <br>
+      "DefaultConnection": "Server=localhost;Port=3306;database=hair_salon;uid=YOURUSERNAME;pwd=YOURPASSWORD;" <br>
+  } <br>
 }
 
 * Run dotnet restore
