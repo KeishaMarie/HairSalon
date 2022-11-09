@@ -1,4 +1,4 @@
-# Hair Salon Clientelle Tracker
+# Hair Salon Clientele Tracker
 
 #### Keisha Hepner
 
